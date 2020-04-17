@@ -4,30 +4,38 @@ using UnityEngine;
 
 public enum Cure
 {
-    LavadoManos,
-    TaparseCara
+    TaparteBoca,
+    LavarseManos,
+    LlamarCentroSanitario,
+    UsarMascarilla,
+    EvitarGente,
+    Aislarte,
+    NoTocarCara
 }
 
 public class GameManager : MonoBehaviour
 {
-
     //All symptoms available
-    public List<Task> symptomsLists;
+    public List<Symptom> availableSymptoms;
 
-    private void Awake()
+    //Active symptoms
+    public List<Symptom> activeSymptoms;
+
+   
+    private void Start()
     {
-        symptomsLists = new List<Task>();
+        InvokeRepeating("AddActiveSymptom", 0f, 5f);
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    void AddActiveSymptom()
     {
-        
+        int index = Random.Range(0, availableSymptoms.Count);
+        Debug.Log(availableSymptoms.Count);
+        Symptom symptom = availableSymptoms[index];
+
+        activeSymptoms.Insert(0, symptom);
+        Debug.Log("Added: " + symptom.symptom);
+
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Symptom",menuName = "Symptom")]
-public class Task : ScriptableObject
+public class Symptom : ScriptableObject
 {
     public string symptom;
     public Cure cure;

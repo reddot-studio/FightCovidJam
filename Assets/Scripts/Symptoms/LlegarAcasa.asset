@@ -10,7 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d9c7da3806f74b646be97fe6cf392f18, type: 3}
-  m_Name: Sneeze
+  m_Name: LlegarAcasa
   m_EditorClassIdentifier: 
-  symptom: Snooze
+  symptom: Llegas a casa
+  cure: 1
   isDone: 0

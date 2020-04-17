@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: 2362447634e24a6478e0105be5a652ab
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Capa 9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6475
+      y: 2759
+      width: 205
+      height: 1141
+    spriteID: 9cac36fa34e3f734588db922a4d3547d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 879, y: 8}
+  - name: Capa 8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5845
+      y: 986
+      width: 622
+      height: 726
+    spriteID: 0a9c66734aa11aa4586459312bf4655d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5626, y: -1701}
+  - name: Capa 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6475
+      y: 1671
+      width: 629
+      height: 546
+    spriteID: 44865ad8ff71e16408f76f4e174d0b21
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6299, y: -1764}
+  - name: Capa 7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6475
+      y: 2225
+      width: 468
+      height: 526
+    spriteID: 76203e38a16160f47981b2fa75a5c1e8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1451, y: -1230}
+  - name: Human
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5845
+      y: 2118
+      width: 374
+      height: 456
+    spriteID: 8868ebcb16bfd524082a9630f0a04f56
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2059, y: 76}
+  - name: kisspng-middle-east-respiratory-syndrome-coronavirus-indoo-controlled-molding-inc-5b3d87a9ecf928.4221145315307590819707
+      copia 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6688
+      y: 3024
+      width: 172
+      height: 175
+    spriteID: a8ac9e1d781de854fbb739fa6caa979b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5799, y: 2435}
+  - name: kisspng-middle-east-respiratory-syndrome-coronavirus-indoo-controlled-molding-inc-5b3d87a9ecf928.4221145315307590819707
+      copia
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6688
+      y: 2759
+      width: 253
+      height: 257
+    spriteID: cf2b42af9ea8f4e4183f39b7faa596c3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6561, y: 1976}
+  - name: kisspng-middle-east-respiratory-syndrome-coronavirus-indoo-controlled-molding-inc-5b3d87a9ecf928.4221145315307590819707
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6475
+      y: 986
+      width: 667
+      height: 677
+    spriteID: 087e459fd04bb86409bb8038ec8129b9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6274, y: 815}
+  - name: Dog
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5845
+      y: 1720
+      width: 508
+      height: 390
+    spriteID: 3b92725afa31ed042be5581057af3f9f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4161, y: -322}
+  - name: Wuhan
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5845
+      y: 4
+      width: 1318
+      height: 974
+    spriteID: e38f7205e6554df4e876c28cb13b658f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1368, y: -47}
+  - name: Capa 11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 5833
+      height: 4057
+    spriteID: 1a732f4ce516bef40ba1a6287a08c202
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 5833, y: 4057}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 8192
+  textureActualHeight: 8192
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: 2 SCREEN
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 29
+    mosaicPosition: {x: 0, y: 0}
+  - name: Draws
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 
+    layerID: 28
+    mosaicPosition: {x: 0, y: 0}
+  - name: Capa 9
+    spriteName: Capa 9
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 9cac36fa34e3f734588db922a4d3547d
+    layerID: 25
+    mosaicPosition: {x: 6475, y: 2759}
+  - name: Capa 8
+    spriteName: Capa 8
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 0a9c66734aa11aa4586459312bf4655d
+    layerID: 24
+    mosaicPosition: {x: 5845, y: 986}
+  - name: Capa 6
+    spriteName: Capa 6
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 44865ad8ff71e16408f76f4e174d0b21
+    layerID: 23
+    mosaicPosition: {x: 6475, y: 1671}
+  - name: Capa 7
+    spriteName: Capa 7
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 76203e38a16160f47981b2fa75a5c1e8
+    layerID: 22
+    mosaicPosition: {x: 6475, y: 2225}
+  - name: Human
+    spriteName: Human
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 8868ebcb16bfd524082a9630f0a04f56
+    layerID: 21
+    mosaicPosition: {x: 5845, y: 2118}
+  - name: kisspng-middle-east-respiratory-syndrome-coronavirus-indoo-controlled-molding-inc-5b3d87a9ecf928.4221145315307590819707
+      copia 2
+    spriteName: kisspng-middle-east-respiratory-syndrome-coronavirus-indoo-controlled-molding-inc-5b3d87a9ecf928.4221145315307590819707
+      copia 2
+    isGroup: 0
+    parentIndex: 1
+    spriteID: a8ac9e1d781de854fbb739fa6caa979b
+    layerID: 20
+    mosaicPosition: {x: 6688, y: 3024}
+  - name: kisspng-middle-east-respiratory-syndrome-coronavirus-indoo-controlled-molding-inc-5b3d87a9ecf928.4221145315307590819707
+      copia
+    spriteName: kisspng-middle-east-respiratory-syndrome-coronavirus-indoo-controlled-molding-inc-5b3d87a9ecf928.4221145315307590819707
+      copia
+    isGroup: 0
+    parentIndex: 1
+    spriteID: cf2b42af9ea8f4e4183f39b7faa596c3
+    layerID: 19
+    mosaicPosition: {x: 6688, y: 2759}
+  - name: kisspng-middle-east-respiratory-syndrome-coronavirus-indoo-controlled-molding-inc-5b3d87a9ecf928.4221145315307590819707
+    spriteName: kisspng-middle-east-respiratory-syndrome-coronavirus-indoo-controlled-molding-inc-5b3d87a9ecf928.4221145315307590819707
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 087e459fd04bb86409bb8038ec8129b9
+    layerID: 18
+    mosaicPosition: {x: 6475, y: 986}
+  - name: Dog
+    spriteName: Dog
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 3b92725afa31ed042be5581057af3f9f
+    layerID: 17
+    mosaicPosition: {x: 5845, y: 1720}
+  - name: Wuhan
+    spriteName: Wuhan
+    isGroup: 0
+    parentIndex: 1
+    spriteID: e38f7205e6554df4e876c28cb13b658f
+    layerID: 16
+    mosaicPosition: {x: 5845, y: 4}
+  - name: Capa 11
+    spriteName: Capa 11
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 1a732f4ce516bef40ba1a6287a08c202
+    layerID: 14
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: intro_2 Texture
+  prefabAssetName: intro_2 Prefab
+  spriteLibAssetName: intro_2 Sprite Lib
+  secondarySpriteTextures: []

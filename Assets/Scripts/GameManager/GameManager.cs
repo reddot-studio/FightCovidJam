@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        
         currentTime = symptomRate;
     }
     public void Update()

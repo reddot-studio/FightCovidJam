@@ -506,6 +506,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8c24f311d8e7883459945cc31e50984b, type: 2}
   - {fileID: 11400000, guid: 961a81003ff1eab4687d8e7ada9980a9, type: 2}
   activeSymptoms: []
+  symptomRate: 5
 --- !u!4 &477362242
 Transform:
   m_ObjectHideFlags: 0

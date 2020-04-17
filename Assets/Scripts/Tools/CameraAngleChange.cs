@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CameraAngleChange : MonoBehaviour
 {
@@ -11,10 +12,15 @@ public class CameraAngleChange : MonoBehaviour
     public LayerMask raycastMask;
 
     bool rotate = false;
+    public Text fpsText;
+    float deltaTime = 0.0f;
 
     // Update is called once per frame
     void Update()
     {
+
+        deltaTime += (Time.unscaledDeltaTime - deltaTime) * 0.1f;
+        fpsText.text = (1.0f / deltaTime).ToString("F0");
 
         if (Input.GetMouseButtonDown(0) && !rotate)
         {

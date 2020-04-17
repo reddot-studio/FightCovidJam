@@ -8,6 +8,8 @@ public class CameraAngleChange : MonoBehaviour
     public Animator animationCamera;
     Vector3 startPosition;
 
+    public LayerMask raycastMask;
+
     bool rotate = false;
 
     // Update is called once per frame
@@ -18,6 +20,11 @@ public class CameraAngleChange : MonoBehaviour
         {
             startPosition = Input.mousePosition;
             rotate = true;
+        }
+
+        if (Input.GetMouseButtonUp(0))
+        {
+            rotate = false;
         }
 
         if (Input.GetMouseButton(0) && rotate)
@@ -59,6 +66,17 @@ public class CameraAngleChange : MonoBehaviour
                 }
 
                 rotate = false;
+            }
+        }
+
+        if (Input.GetMouseButton(0))
+        {
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit _hit;
+
+            if (Physics.Raycast(ray, out _hit, Mathf.Infinity, raycastMask))
+            {
+                _hit.transform.gameObject.GetComponent<Animator>().SetBool("pushed", true);
             }
         }
 

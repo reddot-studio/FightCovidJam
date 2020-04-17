@@ -87,18 +87,18 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: bolitas
+  - name: "MANT\xC9N UNA  BUENA LIMPIEZA"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 5845
-      y: 1919
-      width: 205
-      height: 1141
-    spriteID: ea0e5ccc45b13d944bbb90401ffd833c
+      x: 6481
+      y: 1739
+      width: 1082
+      height: 318
+    spriteID: 9c20e97cbbd825e4190f853daf3c517f
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,7 +108,227 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 249, y: -822}
+    uvTransform: {x: 5137, y: 1450}
+  - name: "T\xC1PATE LA BOCA AL TOSER"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6154
+      y: 4569
+      width: 1157
+      height: 318
+    spriteID: a7dcafa854bad474daa05b63d549d4d7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6131, y: 4280}
+  - name: "\xBFC\xD3MO EVITAR EL CONTAGIO?"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5561
+      width: 3349
+      height: 234
+    spriteID: 9cf5245312c032b4c8d487277bf33d45
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1211, y: 4077}
+  - name: "Rect\xE1ngulo 3"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3580
+      y: 4095
+      width: 3534
+      height: 421
+    spriteID: 35872cc3f55b3a74188854a9ca85ab07
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2443, y: 2685}
+  - name: "Rect\xE1ngulo 5"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4569
+      width: 3166
+      height: 488
+    spriteID: 68a785751dddda1489d0a68aa9d417c1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1289, y: 3205}
+  - name: "Rect\xE1ngulo 4"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4095
+      width: 3568
+      height: 466
+    spriteID: f362200f3ba8caf4d8a505518f349375
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1114, y: 2709}
+  - name: "\xBFQUI\xC9N LO CONTAGIA?"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5594
+      y: 5065
+      width: 2491
+      height: 234
+    spriteID: 637f07434e7043f48b3f0cea560d924c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3966, y: 1465}
+  - name: "Rect\xE1ngulo 3_1"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2646
+      y: 5065
+      width: 2940
+      height: 421
+    spriteID: f8fd11a3c8155ae4285e577f2a0e987f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1250, y: 1539}
+  - name: "Rect\xE1ngulo 5_1"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5065
+      width: 2634
+      height: 488
+    spriteID: 366db3ce26bf64a46b2970761a64f2c0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1522, y: 1585}
+  - name: "Rect\xE1ngulo 4_1"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3178
+      y: 4569
+      width: 2968
+      height: 466
+    spriteID: 2652eab8321ed1a4aaa0189640e29710
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1798, y: 1067}
+  - name: bolitas
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7629
+      y: 4
+      width: 207
+      height: 1141
+    spriteID: 656ddcd51922cd147a46e57790debf7b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2035, y: -2763}
   - name: '%'
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -118,9 +338,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 5845
       y: 1185
-      width: 622
+      width: 628
       height: 726
-    spriteID: 683d93467dc37b7439d941c8fcf1b4ac
+    spriteID: b15011db747f6a04ebf7dde99964b22e
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -130,7 +350,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 5626, y: -1492}
+    uvTransform: {x: 5678, y: -1518}
   - name: quesito izq
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -138,11 +358,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 6475
+      x: 6481
       y: 1185
-      width: 629
+      width: 634
       height: 546
-    spriteID: 91d1fccef99a7b1419a58e9ea1453ca1
+    spriteID: aee1c15480ddbcd4a934e10b2c70afcd
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -152,7 +372,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 6299, y: -2240}
+    uvTransform: {x: 6357, y: -2266}
   - name: quesito dech
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -160,11 +380,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 7613
-      y: 4
-      width: 468
+      x: 7123
+      y: 1185
+      width: 472
       height: 526
-    spriteID: 4aac74cc6f4baca4fa79e82e93cf3489
+    spriteID: 34ff0c1c0035182409b676a474134c35
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -174,7 +394,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2589, y: -3441}
+    uvTransform: {x: 2106, y: -2286}
   - name: contagious
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -184,9 +404,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 5845
       y: 4
-      width: 1760
+      width: 1776
       height: 1173
-    spriteID: 9d7f27bbe7b548b40925d3bbeb0654e0
+    spriteID: 94ee6740401036d43a938caa4a53934e
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -196,7 +416,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3834, y: -2134}
+    uvTransform: {x: 3869, y: -2160}
   - name: wash
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -204,11 +424,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 6475
-      y: 2223
-      width: 474
+      x: 5845
+      y: 2891
+      width: 479
       height: 474
-    spriteID: 022242ab30650e748a2d989efc5291c2
+    spriteID: 684ab6678916fef4cacbf118f50d6b6a
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -218,7 +438,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1779, y: 1536}
+    uvTransform: {x: 750, y: 2146}
   - name: home
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -226,11 +446,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 6475
-      y: 1739
-      width: 475
+      x: 5845
+      y: 2407
+      width: 480
       height: 476
-    spriteID: 35ff8722dad3ef6438846ea92853fa98
+    spriteID: fd4d88936600f3748a574594366b50f3
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -240,7 +460,139 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2717, y: 1059}
+    uvTransform: {x: 1723, y: 1681}
+  - name: USA MASCARILLA FUERA DE CASA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6481
+      y: 2065
+      width: 1132
+      height: 293
+    spriteID: 4fe00929203206b459393fc5b49b8cc3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3830, y: 1770}
+  - name: "ASINTOM\xC1TICOS"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7122
+      y: 4396
+      width: 1048
+      height: 118
+    spriteID: 4b97939e180993c4b818c62af59c06cf
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3321, y: 2151}
+  - name: "SINTOM\xC1TICOS"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6154
+      y: 4895
+      width: 958
+      height: 118
+    spriteID: bcd722329bdbf21498bb843485470b46
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2330, y: 1722}
+  - name: CONTAGIADOS
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7127
+      y: 2366
+      width: 929
+      height: 93
+    spriteID: 086fe25ab2aaf2e47803854e64a74705
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6132, y: -354}
+  - name: LAVA TUS MANOS
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6481
+      y: 2366
+      width: 638
+      height: 293
+    spriteID: db7dee9ec63a42d46aee14b59ffcd184
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1457, y: 2075}
+  - name: EVITA SALIR DE TU HOGAR
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7122
+      y: 4095
+      width: 944
+      height: 293
+    spriteID: 457b7f66ae3402e4c9938ba072c008e0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3170, y: 3808}
   - name: mask
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -249,10 +601,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 5845
-      y: 3557
-      width: 480
+      y: 1919
+      width: 484
       height: 480
-    spriteID: f70a15e5535d8c248abbe1e07613acdc
+    spriteID: 965911630952c584eaaec76c6773f700
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -262,7 +614,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3064, y: 2876}
+    uvTransform: {x: 2869, y: 1186}
   - name: clean
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -270,11 +622,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 7613
-      y: 538
-      width: 495
+      x: 7603
+      y: 1185
+      width: 500
       height: 495
-    spriteID: 040966a0fc6b81f4ba823393d2d246e1
+    spriteID: cdfdd8cea6d460e408e061ce74a6dfa0
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -284,7 +636,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 5776, y: -133}
+    uvTransform: {x: 6013, y: 459}
   - name: cover
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -292,11 +644,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 5845
-      y: 3068
-      width: 480
+      x: 7319
+      y: 4569
+      width: 484
       height: 481
-    spriteID: a9b6156bc5be4d94eadfc12256e8f80d
+    spriteID: 18ce3f7b33b99f946aa14974100d673c
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -306,7 +658,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4985, y: 2388}
+    uvTransform: {x: 6963, y: 3854}
   - name: Capa 10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -317,8 +669,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 5833
-      height: 4057
-    spriteID: 2b3e4b0a92678ff4a8b2f273a0d57040
+      height: 4083
+    spriteID: d607312a1c610d941bc03398058a8a2a
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -336,7 +688,7 @@ ScriptedImporter:
   importHiddenLayers: 0
   importedTextureWidth: 2048
   importedTextureHeight: 2048
-  documentSize: {x: 5833, y: 4057}
+  documentSize: {x: 5833, y: 4083}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
@@ -353,91 +705,217 @@ ScriptedImporter:
     isGroup: 1
     parentIndex: -1
     spriteID: 
-    layerID: 67
+    layerID: 264
     mosaicPosition: {x: 0, y: 0}
+  - name: "MANT\xC9N UNA  BUENA LIMPIEZA"
+    spriteName: "MANT\xC9N UNA  BUENA LIMPIEZA"
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 9c20e97cbbd825e4190f853daf3c517f
+    layerID: 263
+    mosaicPosition: {x: 6481, y: 1739}
+  - name: "T\xC1PATE LA BOCA AL TOSER"
+    spriteName: "T\xC1PATE LA BOCA AL TOSER"
+    isGroup: 0
+    parentIndex: 0
+    spriteID: a7dcafa854bad474daa05b63d549d4d7
+    layerID: 262
+    mosaicPosition: {x: 6154, y: 4569}
+  - name: Title copia 3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 
+    layerID: 261
+    mosaicPosition: {x: 0, y: 0}
+  - name: "\xBFC\xD3MO EVITAR EL CONTAGIO?"
+    spriteName: "\xBFC\xD3MO EVITAR EL CONTAGIO?"
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 9cf5245312c032b4c8d487277bf33d45
+    layerID: 260
+    mosaicPosition: {x: 4, y: 5561}
+  - name: "Rect\xE1ngulo 3"
+    spriteName: "Rect\xE1ngulo 3"
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 35872cc3f55b3a74188854a9ca85ab07
+    layerID: 259
+    mosaicPosition: {x: 3580, y: 4095}
+  - name: "Rect\xE1ngulo 5"
+    spriteName: "Rect\xE1ngulo 5"
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 68a785751dddda1489d0a68aa9d417c1
+    layerID: 258
+    mosaicPosition: {x: 4, y: 4569}
+  - name: "Rect\xE1ngulo 4"
+    spriteName: "Rect\xE1ngulo 4"
+    isGroup: 0
+    parentIndex: 3
+    spriteID: f362200f3ba8caf4d8a505518f349375
+    layerID: 257
+    mosaicPosition: {x: 4, y: 4095}
+  - name: Title copia
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 
+    layerID: 255
+    mosaicPosition: {x: 0, y: 0}
+  - name: "\xBFQUI\xC9N LO CONTAGIA?"
+    spriteName: "\xBFQUI\xC9N LO CONTAGIA?"
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 637f07434e7043f48b3f0cea560d924c
+    layerID: 254
+    mosaicPosition: {x: 5594, y: 5065}
+  - name: "Rect\xE1ngulo 3"
+    spriteName: "Rect\xE1ngulo 3_1"
+    isGroup: 0
+    parentIndex: 8
+    spriteID: f8fd11a3c8155ae4285e577f2a0e987f
+    layerID: 253
+    mosaicPosition: {x: 2646, y: 5065}
+  - name: "Rect\xE1ngulo 5"
+    spriteName: "Rect\xE1ngulo 5_1"
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 366db3ce26bf64a46b2970761a64f2c0
+    layerID: 252
+    mosaicPosition: {x: 4, y: 5065}
+  - name: "Rect\xE1ngulo 4"
+    spriteName: "Rect\xE1ngulo 4_1"
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 2652eab8321ed1a4aaa0189640e29710
+    layerID: 251
+    mosaicPosition: {x: 3178, y: 4569}
   - name: Draws
     spriteName: 
     isGroup: 1
     parentIndex: 0
     spriteID: 
-    layerID: 66
+    layerID: 249
     mosaicPosition: {x: 0, y: 0}
   - name: bolitas
     spriteName: bolitas
     isGroup: 0
-    parentIndex: 1
-    spriteID: ea0e5ccc45b13d944bbb90401ffd833c
-    layerID: 63
-    mosaicPosition: {x: 5845, y: 1919}
+    parentIndex: 13
+    spriteID: 656ddcd51922cd147a46e57790debf7b
+    layerID: 248
+    mosaicPosition: {x: 7629, y: 4}
   - name: '%'
     spriteName: '%'
     isGroup: 0
-    parentIndex: 1
-    spriteID: 683d93467dc37b7439d941c8fcf1b4ac
-    layerID: 62
+    parentIndex: 13
+    spriteID: b15011db747f6a04ebf7dde99964b22e
+    layerID: 247
     mosaicPosition: {x: 5845, y: 1185}
   - name: quesito izq
     spriteName: quesito izq
     isGroup: 0
-    parentIndex: 1
-    spriteID: 91d1fccef99a7b1419a58e9ea1453ca1
-    layerID: 61
-    mosaicPosition: {x: 6475, y: 1185}
+    parentIndex: 13
+    spriteID: aee1c15480ddbcd4a934e10b2c70afcd
+    layerID: 246
+    mosaicPosition: {x: 6481, y: 1185}
   - name: quesito dech
     spriteName: quesito dech
     isGroup: 0
-    parentIndex: 1
-    spriteID: 4aac74cc6f4baca4fa79e82e93cf3489
-    layerID: 60
-    mosaicPosition: {x: 7613, y: 4}
+    parentIndex: 13
+    spriteID: 34ff0c1c0035182409b676a474134c35
+    layerID: 245
+    mosaicPosition: {x: 7123, y: 1185}
   - name: contagious
     spriteName: contagious
     isGroup: 0
-    parentIndex: 1
-    spriteID: 9d7f27bbe7b548b40925d3bbeb0654e0
-    layerID: 59
+    parentIndex: 13
+    spriteID: 94ee6740401036d43a938caa4a53934e
+    layerID: 244
     mosaicPosition: {x: 5845, y: 4}
   - name: wash
     spriteName: wash
     isGroup: 0
-    parentIndex: 1
-    spriteID: 022242ab30650e748a2d989efc5291c2
-    layerID: 58
-    mosaicPosition: {x: 6475, y: 2223}
+    parentIndex: 13
+    spriteID: 684ab6678916fef4cacbf118f50d6b6a
+    layerID: 243
+    mosaicPosition: {x: 5845, y: 2891}
   - name: home
     spriteName: home
     isGroup: 0
-    parentIndex: 1
-    spriteID: 35ff8722dad3ef6438846ea92853fa98
-    layerID: 57
-    mosaicPosition: {x: 6475, y: 1739}
+    parentIndex: 13
+    spriteID: fd4d88936600f3748a574594366b50f3
+    layerID: 242
+    mosaicPosition: {x: 5845, y: 2407}
+  - name: USA MASCARILLA FUERA DE CASA
+    spriteName: USA MASCARILLA FUERA DE CASA
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 4fe00929203206b459393fc5b49b8cc3
+    layerID: 241
+    mosaicPosition: {x: 6481, y: 2065}
+  - name: "ASINTOM\xC1TICOS"
+    spriteName: "ASINTOM\xC1TICOS"
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 4b97939e180993c4b818c62af59c06cf
+    layerID: 240
+    mosaicPosition: {x: 7122, y: 4396}
+  - name: "SINTOM\xC1TICOS"
+    spriteName: "SINTOM\xC1TICOS"
+    isGroup: 0
+    parentIndex: 13
+    spriteID: bcd722329bdbf21498bb843485470b46
+    layerID: 239
+    mosaicPosition: {x: 6154, y: 4895}
+  - name: CONTAGIADOS
+    spriteName: CONTAGIADOS
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 086fe25ab2aaf2e47803854e64a74705
+    layerID: 238
+    mosaicPosition: {x: 7127, y: 2366}
+  - name: LAVA TUS MANOS
+    spriteName: LAVA TUS MANOS
+    isGroup: 0
+    parentIndex: 13
+    spriteID: db7dee9ec63a42d46aee14b59ffcd184
+    layerID: 237
+    mosaicPosition: {x: 6481, y: 2366}
+  - name: EVITA SALIR DE TU HOGAR
+    spriteName: EVITA SALIR DE TU HOGAR
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 457b7f66ae3402e4c9938ba072c008e0
+    layerID: 236
+    mosaicPosition: {x: 7122, y: 4095}
   - name: mask
     spriteName: mask
     isGroup: 0
-    parentIndex: 1
-    spriteID: f70a15e5535d8c248abbe1e07613acdc
-    layerID: 56
-    mosaicPosition: {x: 5845, y: 3557}
+    parentIndex: 13
+    spriteID: 965911630952c584eaaec76c6773f700
+    layerID: 235
+    mosaicPosition: {x: 5845, y: 1919}
   - name: clean
     spriteName: clean
     isGroup: 0
-    parentIndex: 1
-    spriteID: 040966a0fc6b81f4ba823393d2d246e1
-    layerID: 55
-    mosaicPosition: {x: 7613, y: 538}
+    parentIndex: 13
+    spriteID: cdfdd8cea6d460e408e061ce74a6dfa0
+    layerID: 234
+    mosaicPosition: {x: 7603, y: 1185}
   - name: cover
     spriteName: cover
     isGroup: 0
-    parentIndex: 1
-    spriteID: a9b6156bc5be4d94eadfc12256e8f80d
-    layerID: 54
-    mosaicPosition: {x: 5845, y: 3068}
+    parentIndex: 13
+    spriteID: 18ce3f7b33b99f946aa14974100d673c
+    layerID: 233
+    mosaicPosition: {x: 7319, y: 4569}
   - name: Capa 10
     spriteName: Capa 10
     isGroup: 0
     parentIndex: 0
-    spriteID: 2b3e4b0a92678ff4a8b2f273a0d57040
-    layerID: 52
+    spriteID: d607312a1c610d941bc03398058a8a2a
+    layerID: 231
     mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []

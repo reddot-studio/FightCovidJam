@@ -87,6 +87,248 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
+  - name: Los coronavirus son una extensa familia de virus que pueden cau
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5561
+      width: 4168
+      height: 292
+    spriteID: f4ee8adde356bf6439c1aeb203100be9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -982, y: 2575}
+  - name: El virus que causa el Covid-19 es un nuevo coronavirus que se i
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5861
+      width: 3393
+      height: 236
+    spriteID: 9eae90927db5421439f166f6862109ec
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1237, y: 5133}
+  - name: "La enfermedad del coronavirus 2019 (Covid-19)  es una afecci\xF3n "
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4180
+      y: 5561
+      width: 3611
+      height: 251
+    spriteID: 0cc76657800bc4b47a0b86047d4166a6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3077, y: 4472}
+  - name: "\xBFQU\xC9 ES EL COVID-19?"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5542
+      y: 5065
+      width: 2609
+      height: 234
+    spriteID: 138692b52ad204749a95a938fa3e50f3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3910, y: 3479}
+  - name: "Rect\xE1ngulo 3"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2621
+      y: 5065
+      width: 2913
+      height: 421
+    spriteID: b2038a8cf54b81447b37d6d0d23cdd65
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1148, y: 3553}
+  - name: "Rect\xE1ngulo 5"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5065
+      width: 2609
+      height: 488
+    spriteID: a9fe5452c50985f4fafe6f232d9e8bff
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1597, y: 3599}
+  - name: "Rect\xE1ngulo 4"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2928
+      y: 4569
+      width: 2941
+      height: 466
+    spriteID: 8c6e1456d5576dc4e853f6d2037b97a9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1471, y: 3081}
+  - name: "\xBFQU\xC9 ES UN CORONAVIRUS?"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3405
+      y: 5861
+      width: 3134
+      height: 234
+    spriteID: 61ef1eface6271c43bbcda249ef8a3ca
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2011, y: 2186}
+  - name: "Rect\xE1ngulo 3_1"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3298
+      y: 4095
+      width: 3255
+      height: 432
+    spriteID: cfdac8f219f1e8b4299cb4542cc3fa05
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1961, y: 499}
+  - name: "Rect\xE1ngulo 5_1"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4569
+      width: 2916
+      height: 488
+    spriteID: d1b09978344697a4e899457755dd8e66
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1476, y: 1014}
+  - name: "Rect\xE1ngulo 4_1"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4095
+      width: 3286
+      height: 466
+    spriteID: e8cdf67c5ceec4846bf883afc2f49f5e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1315, y: 518}
   - name: Capa 9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -98,7 +340,7 @@ ScriptedImporter:
       y: 2759
       width: 205
       height: 1141
-    spriteID: 9cac36fa34e3f734588db922a4d3547d
+    spriteID: 2b8ce189af117484d9ca42ea3bb6a28a
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,7 +350,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 879, y: 8}
+    uvTransform: {x: 879, y: -8}
   - name: Capa 8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -120,7 +362,7 @@ ScriptedImporter:
       y: 986
       width: 622
       height: 726
-    spriteID: 0a9c66734aa11aa4586459312bf4655d
+    spriteID: ac439c582cdb0e14497a710e6100850c
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -130,7 +372,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 5626, y: -1701}
+    uvTransform: {x: 5626, y: -1717}
   - name: Capa 6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -142,7 +384,7 @@ ScriptedImporter:
       y: 1671
       width: 629
       height: 546
-    spriteID: 44865ad8ff71e16408f76f4e174d0b21
+    spriteID: c49774c42c17010428d8c69a2556acc1
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -152,7 +394,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 6299, y: -1764}
+    uvTransform: {x: 6299, y: -1780}
   - name: Capa 7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -164,7 +406,7 @@ ScriptedImporter:
       y: 2225
       width: 468
       height: 526
-    spriteID: 76203e38a16160f47981b2fa75a5c1e8
+    spriteID: 7870fc8f76cef274f91f309f340212b1
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -174,7 +416,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1451, y: -1230}
+    uvTransform: {x: 1451, y: -1246}
   - name: Human
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -182,11 +424,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 5845
-      y: 2118
+      x: 7077
+      y: 4095
       width: 374
       height: 456
-    spriteID: 8868ebcb16bfd524082a9630f0a04f56
+    spriteID: 457457962c47a3141aeb079702b07d67
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -196,7 +438,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2059, y: 76}
+    uvTransform: {x: 3291, y: 1737}
   - name: kisspng-middle-east-respiratory-syndrome-coronavirus-indoo-controlled-molding-inc-5b3d87a9ecf928.4221145315307590819707
       copia 2
     originalName: 
@@ -205,11 +447,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 6688
-      y: 3024
+      x: 6475
+      y: 3908
       width: 172
       height: 175
-    spriteID: a8ac9e1d781de854fbb739fa6caa979b
+    spriteID: efdda92c44701dd488c498d69dce39cf
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -219,7 +461,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 5799, y: 2435}
+    uvTransform: {x: 5586, y: 3303}
   - name: kisspng-middle-east-respiratory-syndrome-coronavirus-indoo-controlled-molding-inc-5b3d87a9ecf928.4221145315307590819707
       copia
     originalName: 
@@ -228,11 +470,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 6688
-      y: 2759
+      x: 7799
+      y: 5561
       width: 253
       height: 257
-    spriteID: cf2b42af9ea8f4e4183f39b7faa596c3
+    spriteID: 53cede535f34a4245a44ed6c103a19cb
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -242,7 +484,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 6561, y: 1976}
+    uvTransform: {x: 7672, y: 4762}
   - name: kisspng-middle-east-respiratory-syndrome-coronavirus-indoo-controlled-molding-inc-5b3d87a9ecf928.4221145315307590819707
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -254,7 +496,7 @@ ScriptedImporter:
       y: 986
       width: 667
       height: 677
-    spriteID: 087e459fd04bb86409bb8038ec8129b9
+    spriteID: b71de98797651364d956d711acb353bf
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -264,7 +506,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 6274, y: 815}
+    uvTransform: {x: 6274, y: 799}
   - name: Dog
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -272,11 +514,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 5845
-      y: 1720
+      x: 6561
+      y: 4095
       width: 508
       height: 390
-    spriteID: 3b92725afa31ed042be5581057af3f9f
+    spriteID: acbd080ca9144fe43a2a33f11224754b
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -286,7 +528,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4161, y: -322}
+    uvTransform: {x: 4877, y: 1747}
   - name: Wuhan
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -298,7 +540,7 @@ ScriptedImporter:
       y: 4
       width: 1318
       height: 974
-    spriteID: e38f7205e6554df4e876c28cb13b658f
+    spriteID: 6ecf34561ce91fa48928af8adb6a1162
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -308,7 +550,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1368, y: -47}
+    uvTransform: {x: 1330, y: -63}
   - name: Capa 11
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -319,8 +561,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 5833
-      height: 4057
-    spriteID: 1a732f4ce516bef40ba1a6287a08c202
+      height: 4083
+    spriteID: 4a111f6e420d5f040914f8966bdaef2c
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -338,7 +580,7 @@ ScriptedImporter:
   importHiddenLayers: 0
   importedTextureWidth: 2048
   importedTextureHeight: 2048
-  documentSize: {x: 5833, y: 4057}
+  documentSize: {x: 5833, y: 4083}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
@@ -355,95 +597,186 @@ ScriptedImporter:
     isGroup: 1
     parentIndex: -1
     spriteID: 
-    layerID: 29
+    layerID: 63
     mosaicPosition: {x: 0, y: 0}
+  - name: Los coronavirus son una extensa familia de virus que pueden cau
+    spriteName: Los coronavirus son una extensa familia de virus que pueden cau
+    isGroup: 0
+    parentIndex: 0
+    spriteID: f4ee8adde356bf6439c1aeb203100be9
+    layerID: 62
+    mosaicPosition: {x: 4, y: 5561}
+  - name: El virus que causa el Covid-19 es un nuevo coronavirus que se i
+    spriteName: El virus que causa el Covid-19 es un nuevo coronavirus que se i
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 9eae90927db5421439f166f6862109ec
+    layerID: 61
+    mosaicPosition: {x: 4, y: 5861}
+  - name: "La enfermedad del coronavirus 2019 (Covid-19)  es una afecci\xF3n "
+    spriteName: "La enfermedad del coronavirus 2019 (Covid-19)  es una afecci\xF3n "
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 0cc76657800bc4b47a0b86047d4166a6
+    layerID: 60
+    mosaicPosition: {x: 4180, y: 5561}
+  - name: Title copia
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 
+    layerID: 59
+    mosaicPosition: {x: 0, y: 0}
+  - name: "\xBFQU\xC9 ES EL COVID-19?"
+    spriteName: "\xBFQU\xC9 ES EL COVID-19?"
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 138692b52ad204749a95a938fa3e50f3
+    layerID: 58
+    mosaicPosition: {x: 5542, y: 5065}
+  - name: "Rect\xE1ngulo 3"
+    spriteName: "Rect\xE1ngulo 3"
+    isGroup: 0
+    parentIndex: 4
+    spriteID: b2038a8cf54b81447b37d6d0d23cdd65
+    layerID: 57
+    mosaicPosition: {x: 2621, y: 5065}
+  - name: "Rect\xE1ngulo 5"
+    spriteName: "Rect\xE1ngulo 5"
+    isGroup: 0
+    parentIndex: 4
+    spriteID: a9fe5452c50985f4fafe6f232d9e8bff
+    layerID: 56
+    mosaicPosition: {x: 4, y: 5065}
+  - name: "Rect\xE1ngulo 4"
+    spriteName: "Rect\xE1ngulo 4"
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 8c6e1456d5576dc4e853f6d2037b97a9
+    layerID: 55
+    mosaicPosition: {x: 2928, y: 4569}
+  - name: Title
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 
+    layerID: 53
+    mosaicPosition: {x: 0, y: 0}
+  - name: "\xBFQU\xC9 ES UN CORONAVIRUS?"
+    spriteName: "\xBFQU\xC9 ES UN CORONAVIRUS?"
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 61ef1eface6271c43bbcda249ef8a3ca
+    layerID: 52
+    mosaicPosition: {x: 3405, y: 5861}
+  - name: "Rect\xE1ngulo 3"
+    spriteName: "Rect\xE1ngulo 3_1"
+    isGroup: 0
+    parentIndex: 9
+    spriteID: cfdac8f219f1e8b4299cb4542cc3fa05
+    layerID: 51
+    mosaicPosition: {x: 3298, y: 4095}
+  - name: "Rect\xE1ngulo 5"
+    spriteName: "Rect\xE1ngulo 5_1"
+    isGroup: 0
+    parentIndex: 9
+    spriteID: d1b09978344697a4e899457755dd8e66
+    layerID: 50
+    mosaicPosition: {x: 4, y: 4569}
+  - name: "Rect\xE1ngulo 4"
+    spriteName: "Rect\xE1ngulo 4_1"
+    isGroup: 0
+    parentIndex: 9
+    spriteID: e8cdf67c5ceec4846bf883afc2f49f5e
+    layerID: 49
+    mosaicPosition: {x: 4, y: 4095}
   - name: Draws
     spriteName: 
     isGroup: 1
     parentIndex: 0
     spriteID: 
-    layerID: 28
+    layerID: 47
     mosaicPosition: {x: 0, y: 0}
   - name: Capa 9
     spriteName: Capa 9
     isGroup: 0
-    parentIndex: 1
-    spriteID: 9cac36fa34e3f734588db922a4d3547d
-    layerID: 25
+    parentIndex: 14
+    spriteID: 2b8ce189af117484d9ca42ea3bb6a28a
+    layerID: 46
     mosaicPosition: {x: 6475, y: 2759}
   - name: Capa 8
     spriteName: Capa 8
     isGroup: 0
-    parentIndex: 1
-    spriteID: 0a9c66734aa11aa4586459312bf4655d
-    layerID: 24
+    parentIndex: 14
+    spriteID: ac439c582cdb0e14497a710e6100850c
+    layerID: 45
     mosaicPosition: {x: 5845, y: 986}
   - name: Capa 6
     spriteName: Capa 6
     isGroup: 0
-    parentIndex: 1
-    spriteID: 44865ad8ff71e16408f76f4e174d0b21
-    layerID: 23
+    parentIndex: 14
+    spriteID: c49774c42c17010428d8c69a2556acc1
+    layerID: 44
     mosaicPosition: {x: 6475, y: 1671}
   - name: Capa 7
     spriteName: Capa 7
     isGroup: 0
-    parentIndex: 1
-    spriteID: 76203e38a16160f47981b2fa75a5c1e8
-    layerID: 22
+    parentIndex: 14
+    spriteID: 7870fc8f76cef274f91f309f340212b1
+    layerID: 43
     mosaicPosition: {x: 6475, y: 2225}
   - name: Human
     spriteName: Human
     isGroup: 0
-    parentIndex: 1
-    spriteID: 8868ebcb16bfd524082a9630f0a04f56
-    layerID: 21
-    mosaicPosition: {x: 5845, y: 2118}
+    parentIndex: 14
+    spriteID: 457457962c47a3141aeb079702b07d67
+    layerID: 42
+    mosaicPosition: {x: 7077, y: 4095}
   - name: kisspng-middle-east-respiratory-syndrome-coronavirus-indoo-controlled-molding-inc-5b3d87a9ecf928.4221145315307590819707
       copia 2
     spriteName: kisspng-middle-east-respiratory-syndrome-coronavirus-indoo-controlled-molding-inc-5b3d87a9ecf928.4221145315307590819707
       copia 2
     isGroup: 0
-    parentIndex: 1
-    spriteID: a8ac9e1d781de854fbb739fa6caa979b
-    layerID: 20
-    mosaicPosition: {x: 6688, y: 3024}
+    parentIndex: 14
+    spriteID: efdda92c44701dd488c498d69dce39cf
+    layerID: 41
+    mosaicPosition: {x: 6475, y: 3908}
   - name: kisspng-middle-east-respiratory-syndrome-coronavirus-indoo-controlled-molding-inc-5b3d87a9ecf928.4221145315307590819707
       copia
     spriteName: kisspng-middle-east-respiratory-syndrome-coronavirus-indoo-controlled-molding-inc-5b3d87a9ecf928.4221145315307590819707
       copia
     isGroup: 0
-    parentIndex: 1
-    spriteID: cf2b42af9ea8f4e4183f39b7faa596c3
-    layerID: 19
-    mosaicPosition: {x: 6688, y: 2759}
+    parentIndex: 14
+    spriteID: 53cede535f34a4245a44ed6c103a19cb
+    layerID: 40
+    mosaicPosition: {x: 7799, y: 5561}
   - name: kisspng-middle-east-respiratory-syndrome-coronavirus-indoo-controlled-molding-inc-5b3d87a9ecf928.4221145315307590819707
     spriteName: kisspng-middle-east-respiratory-syndrome-coronavirus-indoo-controlled-molding-inc-5b3d87a9ecf928.4221145315307590819707
     isGroup: 0
-    parentIndex: 1
-    spriteID: 087e459fd04bb86409bb8038ec8129b9
-    layerID: 18
+    parentIndex: 14
+    spriteID: b71de98797651364d956d711acb353bf
+    layerID: 39
     mosaicPosition: {x: 6475, y: 986}
   - name: Dog
     spriteName: Dog
     isGroup: 0
-    parentIndex: 1
-    spriteID: 3b92725afa31ed042be5581057af3f9f
-    layerID: 17
-    mosaicPosition: {x: 5845, y: 1720}
+    parentIndex: 14
+    spriteID: acbd080ca9144fe43a2a33f11224754b
+    layerID: 38
+    mosaicPosition: {x: 6561, y: 4095}
   - name: Wuhan
     spriteName: Wuhan
     isGroup: 0
-    parentIndex: 1
-    spriteID: e38f7205e6554df4e876c28cb13b658f
-    layerID: 16
+    parentIndex: 14
+    spriteID: 6ecf34561ce91fa48928af8adb6a1162
+    layerID: 37
     mosaicPosition: {x: 5845, y: 4}
   - name: Capa 11
     spriteName: Capa 11
     isGroup: 0
     parentIndex: 0
-    spriteID: 1a732f4ce516bef40ba1a6287a08c202
-    layerID: 14
+    spriteID: 4a111f6e420d5f040914f8966bdaef2c
+    layerID: 35
     mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []

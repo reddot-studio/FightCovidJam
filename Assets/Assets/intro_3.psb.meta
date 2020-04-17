@@ -87,18 +87,18 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: bolitas
+  - name: FALTA DE AIRE
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 6925
-      y: 2704
-      width: 205
-      height: 1141
-    spriteID: 6baeb5b0ec4d5be40964604e90432203
+      x: 5378
+      y: 5311
+      width: 1001
+      height: 90
+    spriteID: 879aac2d3506d104eb5689319d201547
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,7 +108,315 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1329, y: 36}
+    uvTransform: {x: 1662, y: 3488}
+  - name: "V\xD3MITO"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5845
+      y: 3711
+      width: 494
+      height: 118
+    spriteID: 06f17a5b528afa54ab5919cdb5d97858
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3199, y: 1890}
+  - name: GARGANTA SECA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6895
+      y: 4322
+      width: 1128
+      height: 93
+    spriteID: f86a64edc51dea841abe2ebb6980e8da
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5741, y: 2503}
+  - name: DOLOR DE CABEZA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5612
+      y: 4322
+      width: 1275
+      height: 93
+    spriteID: c880572fdfe2c5842879393b004c1763
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1996, y: 1615}
+  - name: FIEBRE
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6480
+      y: 3890
+      width: 441
+      height: 90
+    spriteID: 80bb5e735b74064419e88b49d0292617
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3726, y: 1183}
+  - name: 'TOS '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6480
+      y: 3988
+      width: 251
+      height: 93
+    spriteID: dda52e99264342b4b99376784c9f963f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4888, y: 1283}
+  - name: "\xBFC\xD3MO SE CONTAGIA?"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5612
+      y: 4095
+      width: 2335
+      height: 219
+    spriteID: 1e7bd636dae9f8f4e8864c151aa4bf8f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3811, y: 2800}
+  - name: "Rect\xE1ngulo 3"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4982
+      y: 4542
+      width: 2769
+      height: 397
+    spriteID: e181f6c42f766824db7dee10f687e7bc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3404, y: 3318}
+  - name: "Rect\xE1ngulo 5"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4542
+      width: 2481
+      height: 460
+    spriteID: 47d5b69f3a8ab464cb55d43b92e46558
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1695, y: 3361}
+  - name: "Rect\xE1ngulo 4"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4095
+      width: 2796
+      height: 439
+    spriteID: 47510f4f3de026a43a4b797afb6a1ec3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1558, y: 2893}
+  - name: "S\xCDNTOMAS DEL COVID-19"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2781
+      y: 5010
+      width: 2589
+      height: 179
+    spriteID: 713c2540cd695fe4f99e897834781709
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1115, y: 1388}
+  - name: "Rect\xE1ngulo 3_1"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5010
+      width: 2769
+      height: 397
+    spriteID: 0ba35f13b53fd0b4f90c746170ca1c84
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1571, y: 1499}
+  - name: "Rect\xE1ngulo 5_1"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2493
+      y: 4542
+      width: 2481
+      height: 460
+    spriteID: b029332b5736b6146b350d7483ad135d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 796, y: 1074}
+  - name: "Rect\xE1ngulo 4_1"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2808
+      y: 4095
+      width: 2796
+      height: 439
+    spriteID: ce1772ad0ac77f04dbe8ab2b1d2a5592
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1248, y: 606}
+  - name: bolitas
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6933
+      y: 2704
+      width: 207
+      height: 1141
+    spriteID: c501fdff91a986440be3ebeca22d8819
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1339, y: 69}
   - name: '%'
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -118,9 +426,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 5845
       y: 4
-      width: 622
+      width: 627
       height: 726
-    spriteID: f24b32ef6abcbce48aa63a75b827461d
+    spriteID: 21be705591095974ca33fd26c8b6e239
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -130,7 +438,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 5626, y: -2600}
+    uvTransform: {x: 5672, y: -2567}
   - name: quesito izq
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -138,11 +446,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 6475
+      x: 6480
       y: 594
-      width: 629
+      width: 635
       height: 546
-    spriteID: b4b4ee2b5d97aff488d1f8fde1dfb7a3
+    spriteID: b438e31fe3403cf47a4c09383db7f0bd
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -152,7 +460,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 6299, y: -2758}
+    uvTransform: {x: 6351, y: -2725}
   - name: quesito dech
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -160,11 +468,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 6475
+      x: 6480
       y: 2170
-      width: 468
+      width: 472
       height: 526
-    spriteID: 8464d4c010943e64c923358cc64b275f
+    spriteID: 75ddbb910a2576646927b0065538cf19
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -174,7 +482,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1451, y: -1202}
+    uvTransform: {x: 1463, y: -1169}
   - name: apnea
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -182,11 +490,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 6475
+      x: 6480
       y: 2704
-      width: 442
+      width: 445
       height: 555
-    spriteID: eddc84d1af01e064e9114ce0155168a2
+    spriteID: 9ac796c56f5600949a8f50ae6eb1612a
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -196,7 +504,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2499, y: 760}
+    uvTransform: {x: 2524, y: 708}
   - name: fiebre
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -206,9 +514,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 5845
       y: 2078
-      width: 437
+      width: 440
       height: 603
-    spriteID: 2f4dcb6f10a096c488ba97c96e8cb617
+    spriteID: fe1f6b9d332b9624ab509e52a6b121f5
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -218,7 +526,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3092, y: -810}
+    uvTransform: {x: 3117, y: -777}
   - name: vomito
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -228,9 +536,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 5845
       y: 1401
-      width: 496
+      width: 500
       height: 669
-    spriteID: 59677aad645d5104baf1ea9359782d10
+    spriteID: fb02fc3929885514ab8b74c10dc80286
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -240,7 +548,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3057, y: -486}
+    uvTransform: {x: 3102, y: -538}
   - name: tos
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -248,11 +556,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 6475
+      x: 6480
       y: 3267
-      width: 378
+      width: 381
       height: 615
-    spriteID: 2d4e0ab48b06e3f44b68daf5405f2179
+    spriteID: a9d1a328340733c4aa5acb28729d0861
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -262,7 +570,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4880, y: 385}
+    uvTransform: {x: 4920, y: 418}
   - name: headache
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -270,11 +578,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 6475
+      x: 6480
       y: 4
-      width: 668
+      width: 674
       height: 582
-    spriteID: 2bc44ca99b6ccfd4b9a065b0cc35c421
+    spriteID: 77be7e0acb73e7c4f91925f93f000075
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -284,7 +592,51 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2692, y: -2894}
+    uvTransform: {x: 2714, y: -2861}
+  - name: CONTACTO ANIMAL
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7162
+      y: 4
+      width: 703
+      height: 291
+    spriteID: 09af60388803cd349a2f601c6604999f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2938, y: -239}
+  - name: CONTACTO HUMANO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7364
+      y: 5010
+      width: 702
+      height: 293
+    spriteID: a9391e32232d90a469552bb08819d5c7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4160, y: 4783}
   - name: object
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -294,9 +646,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 5845
       y: 2689
-      width: 504
+      width: 508
       height: 503
-    spriteID: 212e882d40342314cb8e0a8174d6e348
+    spriteID: 94888160e26fecf4ebbc22843f11fadd
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -306,7 +658,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3596, y: 2013}
+    uvTransform: {x: 3625, y: 2046}
   - name: cat
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -316,9 +668,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 5845
       y: 3200
-      width: 504
+      width: 508
       height: 503
-    spriteID: 03813bdce6d7bac49b2bf27ea1f1f06f
+    spriteID: fb0de98cb72775843be9922142dd4445
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -328,7 +680,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1523, y: 2524}
+    uvTransform: {x: 1535, y: 2557}
   - name: human contact
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -336,11 +688,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 6475
+      x: 6480
       y: 1659
-      width: 503
+      width: 507
       height: 503
-    spriteID: 90e255c243862fd4fac9ac931321a734
+    spriteID: 614c570a765348c4c9a4cfd75b213ca3
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -350,7 +702,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3161, y: 983}
+    uvTransform: {x: 3187, y: 1016}
   - name: air
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -358,11 +710,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 6475
+      x: 6480
       y: 1148
-      width: 504
+      width: 508
       height: 503
-    spriteID: 9be602f18b63a694d9ac55f7c1712456
+    spriteID: 3aa7acda0d03add449f2fe467d588681
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -372,7 +724,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 5291, y: 472}
+    uvTransform: {x: 5432, y: 505}
   - name: soar throat
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -382,9 +734,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 5845
       y: 738
-      width: 534
+      width: 538
       height: 655
-    spriteID: 04ac92e057b80bd4099e6fc304c0ed19
+    spriteID: cd1d61d0595178f429d38417bb7e1ea1
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -394,7 +746,51 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4283, y: -1189}
+    uvTransform: {x: 4332, y: -1243}
+  - name: OBJETOS CONTAMINADOS
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5378
+      y: 5010
+      width: 1027
+      height: 293
+    spriteID: 0c3cda32f9fb2884fa7911f66495f1a7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3412, y: 4787}
+  - name: AMBIENTE CONTAMINADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6413
+      y: 5010
+      width: 943
+      height: 292
+    spriteID: 2a4758fe5190a5a4d873f7e7d859876f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5582, y: 4785}
   - name: Capa 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -405,8 +801,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 5833
-      height: 4057
-    spriteID: c0e2753e053c0bd4696c9dbaf29f0bd5
+      height: 4083
+    spriteID: f3ea82270b14f0c49a683fe70a575eeb
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -424,7 +820,7 @@ ScriptedImporter:
   importHiddenLayers: 0
   importedTextureWidth: 2048
   importedTextureHeight: 2048
-  documentSize: {x: 5833, y: 4057}
+  documentSize: {x: 5833, y: 4083}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
@@ -441,119 +837,259 @@ ScriptedImporter:
     isGroup: 1
     parentIndex: -1
     spriteID: 
-    layerID: 50
+    layerID: 228
     mosaicPosition: {x: 0, y: 0}
+  - name: FALTA DE AIRE
+    spriteName: FALTA DE AIRE
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 879aac2d3506d104eb5689319d201547
+    layerID: 227
+    mosaicPosition: {x: 5378, y: 5311}
+  - name: "V\xD3MITO"
+    spriteName: "V\xD3MITO"
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 06f17a5b528afa54ab5919cdb5d97858
+    layerID: 226
+    mosaicPosition: {x: 5845, y: 3711}
+  - name: GARGANTA SECA
+    spriteName: GARGANTA SECA
+    isGroup: 0
+    parentIndex: 0
+    spriteID: f86a64edc51dea841abe2ebb6980e8da
+    layerID: 225
+    mosaicPosition: {x: 6895, y: 4322}
+  - name: DOLOR DE CABEZA
+    spriteName: DOLOR DE CABEZA
+    isGroup: 0
+    parentIndex: 0
+    spriteID: c880572fdfe2c5842879393b004c1763
+    layerID: 224
+    mosaicPosition: {x: 5612, y: 4322}
+  - name: FIEBRE
+    spriteName: FIEBRE
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 80bb5e735b74064419e88b49d0292617
+    layerID: 223
+    mosaicPosition: {x: 6480, y: 3890}
+  - name: 'TOS '
+    spriteName: 'TOS '
+    isGroup: 0
+    parentIndex: 0
+    spriteID: dda52e99264342b4b99376784c9f963f
+    layerID: 222
+    mosaicPosition: {x: 6480, y: 3988}
+  - name: Title copia 2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 
+    layerID: 221
+    mosaicPosition: {x: 0, y: 0}
+  - name: "\xBFC\xD3MO SE CONTAGIA?"
+    spriteName: "\xBFC\xD3MO SE CONTAGIA?"
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 1e7bd636dae9f8f4e8864c151aa4bf8f
+    layerID: 220
+    mosaicPosition: {x: 5612, y: 4095}
+  - name: "Rect\xE1ngulo 3"
+    spriteName: "Rect\xE1ngulo 3"
+    isGroup: 0
+    parentIndex: 7
+    spriteID: e181f6c42f766824db7dee10f687e7bc
+    layerID: 219
+    mosaicPosition: {x: 4982, y: 4542}
+  - name: "Rect\xE1ngulo 5"
+    spriteName: "Rect\xE1ngulo 5"
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 47d5b69f3a8ab464cb55d43b92e46558
+    layerID: 218
+    mosaicPosition: {x: 4, y: 4542}
+  - name: "Rect\xE1ngulo 4"
+    spriteName: "Rect\xE1ngulo 4"
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 47510f4f3de026a43a4b797afb6a1ec3
+    layerID: 217
+    mosaicPosition: {x: 4, y: 4095}
+  - name: Title copia
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 
+    layerID: 215
+    mosaicPosition: {x: 0, y: 0}
+  - name: "S\xCDNTOMAS DEL COVID-19"
+    spriteName: "S\xCDNTOMAS DEL COVID-19"
+    isGroup: 0
+    parentIndex: 12
+    spriteID: 713c2540cd695fe4f99e897834781709
+    layerID: 214
+    mosaicPosition: {x: 2781, y: 5010}
+  - name: "Rect\xE1ngulo 3"
+    spriteName: "Rect\xE1ngulo 3_1"
+    isGroup: 0
+    parentIndex: 12
+    spriteID: 0ba35f13b53fd0b4f90c746170ca1c84
+    layerID: 213
+    mosaicPosition: {x: 4, y: 5010}
+  - name: "Rect\xE1ngulo 5"
+    spriteName: "Rect\xE1ngulo 5_1"
+    isGroup: 0
+    parentIndex: 12
+    spriteID: b029332b5736b6146b350d7483ad135d
+    layerID: 212
+    mosaicPosition: {x: 2493, y: 4542}
+  - name: "Rect\xE1ngulo 4"
+    spriteName: "Rect\xE1ngulo 4_1"
+    isGroup: 0
+    parentIndex: 12
+    spriteID: ce1772ad0ac77f04dbe8ab2b1d2a5592
+    layerID: 211
+    mosaicPosition: {x: 2808, y: 4095}
   - name: Draws
     spriteName: 
     isGroup: 1
     parentIndex: 0
     spriteID: 
-    layerID: 49
+    layerID: 209
     mosaicPosition: {x: 0, y: 0}
   - name: bolitas
     spriteName: bolitas
     isGroup: 0
-    parentIndex: 1
-    spriteID: 6baeb5b0ec4d5be40964604e90432203
-    layerID: 46
-    mosaicPosition: {x: 6925, y: 2704}
+    parentIndex: 17
+    spriteID: c501fdff91a986440be3ebeca22d8819
+    layerID: 208
+    mosaicPosition: {x: 6933, y: 2704}
   - name: '%'
     spriteName: '%'
     isGroup: 0
-    parentIndex: 1
-    spriteID: f24b32ef6abcbce48aa63a75b827461d
-    layerID: 45
+    parentIndex: 17
+    spriteID: 21be705591095974ca33fd26c8b6e239
+    layerID: 207
     mosaicPosition: {x: 5845, y: 4}
   - name: quesito izq
     spriteName: quesito izq
     isGroup: 0
-    parentIndex: 1
-    spriteID: b4b4ee2b5d97aff488d1f8fde1dfb7a3
-    layerID: 44
-    mosaicPosition: {x: 6475, y: 594}
+    parentIndex: 17
+    spriteID: b438e31fe3403cf47a4c09383db7f0bd
+    layerID: 206
+    mosaicPosition: {x: 6480, y: 594}
   - name: quesito dech
     spriteName: quesito dech
     isGroup: 0
-    parentIndex: 1
-    spriteID: 8464d4c010943e64c923358cc64b275f
-    layerID: 43
-    mosaicPosition: {x: 6475, y: 2170}
+    parentIndex: 17
+    spriteID: 75ddbb910a2576646927b0065538cf19
+    layerID: 205
+    mosaicPosition: {x: 6480, y: 2170}
   - name: apnea
     spriteName: apnea
     isGroup: 0
-    parentIndex: 1
-    spriteID: eddc84d1af01e064e9114ce0155168a2
-    layerID: 42
-    mosaicPosition: {x: 6475, y: 2704}
+    parentIndex: 17
+    spriteID: 9ac796c56f5600949a8f50ae6eb1612a
+    layerID: 204
+    mosaicPosition: {x: 6480, y: 2704}
   - name: fiebre
     spriteName: fiebre
     isGroup: 0
-    parentIndex: 1
-    spriteID: 2f4dcb6f10a096c488ba97c96e8cb617
-    layerID: 41
+    parentIndex: 17
+    spriteID: fe1f6b9d332b9624ab509e52a6b121f5
+    layerID: 203
     mosaicPosition: {x: 5845, y: 2078}
   - name: vomito
     spriteName: vomito
     isGroup: 0
-    parentIndex: 1
-    spriteID: 59677aad645d5104baf1ea9359782d10
-    layerID: 40
+    parentIndex: 17
+    spriteID: fb02fc3929885514ab8b74c10dc80286
+    layerID: 202
     mosaicPosition: {x: 5845, y: 1401}
   - name: tos
     spriteName: tos
     isGroup: 0
-    parentIndex: 1
-    spriteID: 2d4e0ab48b06e3f44b68daf5405f2179
-    layerID: 39
-    mosaicPosition: {x: 6475, y: 3267}
+    parentIndex: 17
+    spriteID: a9d1a328340733c4aa5acb28729d0861
+    layerID: 201
+    mosaicPosition: {x: 6480, y: 3267}
   - name: headache
     spriteName: headache
     isGroup: 0
-    parentIndex: 1
-    spriteID: 2bc44ca99b6ccfd4b9a065b0cc35c421
-    layerID: 38
-    mosaicPosition: {x: 6475, y: 4}
+    parentIndex: 17
+    spriteID: 77be7e0acb73e7c4f91925f93f000075
+    layerID: 200
+    mosaicPosition: {x: 6480, y: 4}
+  - name: CONTACTO ANIMAL
+    spriteName: CONTACTO ANIMAL
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 09af60388803cd349a2f601c6604999f
+    layerID: 199
+    mosaicPosition: {x: 7162, y: 4}
+  - name: CONTACTO HUMANO
+    spriteName: CONTACTO HUMANO
+    isGroup: 0
+    parentIndex: 17
+    spriteID: a9391e32232d90a469552bb08819d5c7
+    layerID: 198
+    mosaicPosition: {x: 7364, y: 5010}
   - name: object
     spriteName: object
     isGroup: 0
-    parentIndex: 1
-    spriteID: 212e882d40342314cb8e0a8174d6e348
-    layerID: 37
+    parentIndex: 17
+    spriteID: 94888160e26fecf4ebbc22843f11fadd
+    layerID: 197
     mosaicPosition: {x: 5845, y: 2689}
   - name: cat
     spriteName: cat
     isGroup: 0
-    parentIndex: 1
-    spriteID: 03813bdce6d7bac49b2bf27ea1f1f06f
-    layerID: 36
+    parentIndex: 17
+    spriteID: fb0de98cb72775843be9922142dd4445
+    layerID: 196
     mosaicPosition: {x: 5845, y: 3200}
   - name: human contact
     spriteName: human contact
     isGroup: 0
-    parentIndex: 1
-    spriteID: 90e255c243862fd4fac9ac931321a734
-    layerID: 35
-    mosaicPosition: {x: 6475, y: 1659}
+    parentIndex: 17
+    spriteID: 614c570a765348c4c9a4cfd75b213ca3
+    layerID: 195
+    mosaicPosition: {x: 6480, y: 1659}
   - name: air
     spriteName: air
     isGroup: 0
-    parentIndex: 1
-    spriteID: 9be602f18b63a694d9ac55f7c1712456
-    layerID: 34
-    mosaicPosition: {x: 6475, y: 1148}
+    parentIndex: 17
+    spriteID: 3aa7acda0d03add449f2fe467d588681
+    layerID: 194
+    mosaicPosition: {x: 6480, y: 1148}
   - name: soar throat
     spriteName: soar throat
     isGroup: 0
-    parentIndex: 1
-    spriteID: 04ac92e057b80bd4099e6fc304c0ed19
-    layerID: 33
+    parentIndex: 17
+    spriteID: cd1d61d0595178f429d38417bb7e1ea1
+    layerID: 193
     mosaicPosition: {x: 5845, y: 738}
+  - name: OBJETOS CONTAMINADOS
+    spriteName: OBJETOS CONTAMINADOS
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 0c3cda32f9fb2884fa7911f66495f1a7
+    layerID: 191
+    mosaicPosition: {x: 5378, y: 5010}
+  - name: AMBIENTE CONTAMINADO
+    spriteName: AMBIENTE CONTAMINADO
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 2a4758fe5190a5a4d873f7e7d859876f
+    layerID: 190
+    mosaicPosition: {x: 6413, y: 5010}
   - name: Capa 3
     spriteName: Capa 3
     isGroup: 0
     parentIndex: 0
-    spriteID: c0e2753e053c0bd4696c9dbaf29f0bd5
-    layerID: 31
+    spriteID: f3ea82270b14f0c49a683fe70a575eeb
+    layerID: 189
     mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []

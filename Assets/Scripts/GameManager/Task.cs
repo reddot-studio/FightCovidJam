@@ -6,6 +6,7 @@ using UnityEngine;
 public class Task : ScriptableObject
 {
     public string symptom;
+    public Cure cure;
     public bool isDone;
 
 }

@@ -21,21 +21,47 @@ public class GameManager : MonoBehaviour
     //Active symptoms
     public List<Symptom> activeSymptoms;
 
-   
+    public float symptomRate;
+    float currentTime;
+
     private void Start()
     {
-        InvokeRepeating("AddActiveSymptom", 0f, 5f);
+        currentTime = symptomRate;
     }
+    public void Update()
+    {
+        //Create symptom X time
+        currentTime -= Time.deltaTime;
+        if(currentTime < 0.0f)
+        {
+            AddActiveSymptom();
+            currentTime = symptomRate;
+        }
 
+
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            DoCure(Cure.LlamarCentroSanitario);
+        }
+    }
 
     void AddActiveSymptom()
     {
         int index = Random.Range(0, availableSymptoms.Count);
-        Debug.Log(availableSymptoms.Count);
         Symptom symptom = availableSymptoms[index];
-
-        activeSymptoms.Insert(0, symptom);
+        activeSymptoms.Add(symptom);
         Debug.Log("Added: " + symptom.symptom);
 
+    }
+
+
+
+    public void DoCure(Cure cure)
+    {
+        if(cure == activeSymptoms[0].cure)
+        {
+            activeSymptoms.RemoveAt(0);
+        }
     }
 }

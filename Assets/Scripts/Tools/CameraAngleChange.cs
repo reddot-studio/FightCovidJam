@@ -32,7 +32,7 @@ public class CameraAngleChange : MonoBehaviour
             if((Input.mousePosition - startPosition).magnitude >= draggDistance)
             {
                 //Debug.Log((Input.mousePosition - startPosition));
-                if((Input.mousePosition - startPosition).x > 0)
+                if((Input.mousePosition - startPosition).x < 0)
                 {
                     switch (animationCamera.GetInteger("turnDirection"))
                     {

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43667546, g: 0.48427135, b: 0.5645225, a: 1}
+  m_IndirectSpecularColor: {r: 0.4366757, g: 0.48427194, b: 0.5645252, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -817,7 +817,7 @@ PrefabInstance:
     - target: {fileID: 4210787461175297545, guid: 2689a91c96bf8444badfb4757ee671e5,
         type: 3}
       propertyPath: m_Name
-      value: Button (1)
+      value: MascarillaButton
       objectReference: {fileID: 0}
     - target: {fileID: 6023037115055123894, guid: 2689a91c96bf8444badfb4757ee671e5,
         type: 3}
@@ -936,7 +936,7 @@ PrefabInstance:
     - target: {fileID: 4210787461175297545, guid: 2689a91c96bf8444badfb4757ee671e5,
         type: 3}
       propertyPath: m_Name
-      value: Button (4)
+      value: AislarteButton
       objectReference: {fileID: 0}
     - target: {fileID: 6023037115055123894, guid: 2689a91c96bf8444badfb4757ee671e5,
         type: 3}
@@ -1962,7 +1962,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 779406125}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1582764077}
+        m_MethodName: RestartGame
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &779406125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2069,7 +2080,7 @@ PrefabInstance:
     - target: {fileID: 4210787461175297545, guid: 2689a91c96bf8444badfb4757ee671e5,
         type: 3}
       propertyPath: m_Name
-      value: Button (2)
+      value: LavarManos Button
       objectReference: {fileID: 0}
     - target: {fileID: 6023037115055123894, guid: 2689a91c96bf8444badfb4757ee671e5,
         type: 3}
@@ -2402,7 +2413,7 @@ PrefabInstance:
     - target: {fileID: 4210787461175297545, guid: 2689a91c96bf8444badfb4757ee671e5,
         type: 3}
       propertyPath: m_Name
-      value: Button
+      value: CentroSanitarioButton
       objectReference: {fileID: 0}
     - target: {fileID: 4210787461175297547, guid: 2689a91c96bf8444badfb4757ee671e5,
         type: 3}
@@ -4006,7 +4017,7 @@ PrefabInstance:
     - target: {fileID: 4210787461175297545, guid: 2689a91c96bf8444badfb4757ee671e5,
         type: 3}
       propertyPath: m_Name
-      value: Button (3)
+      value: TaparteBoca
       objectReference: {fileID: 0}
     - target: {fileID: 6023037115055123894, guid: 2689a91c96bf8444badfb4757ee671e5,
         type: 3}
@@ -4490,7 +4501,7 @@ PrefabInstance:
     - target: {fileID: 4210787461175297545, guid: 2689a91c96bf8444badfb4757ee671e5,
         type: 3}
       propertyPath: m_Name
-      value: Button (5)
+      value: EvitarGenteButton
       objectReference: {fileID: 0}
     - target: {fileID: 6023037115055123894, guid: 2689a91c96bf8444badfb4757ee671e5,
         type: 3}

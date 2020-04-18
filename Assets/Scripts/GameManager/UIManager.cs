@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -24,8 +25,9 @@ public class UIManager : MonoBehaviour
         Application.Quit();
     }
 
-    public void RestartGame()
+    public void RestartGame(int i)
     {
+        SceneManager.LoadScene(i);
         Debug.Log("Restaring game...");
     }
 

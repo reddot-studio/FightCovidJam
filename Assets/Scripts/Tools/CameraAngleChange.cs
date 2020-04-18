@@ -15,6 +15,11 @@ public class CameraAngleChange : MonoBehaviour
     public Text fpsText;
     float deltaTime = 0.0f;
 
+    private void Start()
+    {
+        draggDistance = Screen.currentResolution.width / draggDistance;
+    }
+
     // Update is called once per frame
     void Update()
     {

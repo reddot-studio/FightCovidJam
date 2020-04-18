@@ -110,8 +110,7 @@ public class GameManager : MonoBehaviour
         {
 
             activeSymptoms.Add(symptom);
-            GameObject instance = Instantiate(symptomPrefab, symptomsPanel.transform.position, Quaternion.identity);
-            instance.transform.SetParent(symptomsPanel.transform);
+            GameObject instance = Instantiate(symptomPrefab,symptomsPanel.transform);       
             instance.transform.SetAsFirstSibling();
 
             SymptomObject symptomObject = instance.GetComponent<SymptomObject>();
@@ -146,6 +145,8 @@ public class GameManager : MonoBehaviour
             ResetTimeOut();
             activeSymptoms.RemoveAt(0);
             Destroy(symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount - 1).gameObject);
+            GameObject lastSymptom = symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount - 2).gameObject;
+            lastSymptom.GetComponent<SymptomObject>().ChangeColor();
 
         }
     }

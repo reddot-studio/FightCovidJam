@@ -12,12 +12,13 @@ public enum Cure
     LlamarCentroSanitario,
     UsarMascarilla,
     EvitarGente,
-    Aislarte,
-    NoTocarCara
+    Aislart
 }
 
 public class GameManager : MonoBehaviour
 {
+    public GameObject symptomsPanel;
+    public GameObject symptomPrefab;
 
     public static GameManager instance;
 
@@ -81,6 +82,7 @@ public class GameManager : MonoBehaviour
             {
                 DecrementHealth(healthLossForTimeOut);
                 activeSymptoms.RemoveAt(0);
+                Destroy(symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount -1).gameObject);
                 ResetTimeOut();
             }
             else
@@ -99,11 +101,22 @@ public class GameManager : MonoBehaviour
     {
         int index = UnityEngine.Random.Range(0, availableSymptoms.Count);
         Symptom symptom = availableSymptoms[index];
-        activeSymptoms.Add(symptom);
-        Debug.Log("Added: " + symptom.symptom);
 
-        if(!startTimer)
-            startTimer = true;
+        if (activeSymptoms.Count < 5)
+        {
+
+            activeSymptoms.Add(symptom);
+            GameObject instance = Instantiate(symptomPrefab, symptomsPanel.transform.position, Quaternion.identity);
+            instance.transform.SetParent(symptomsPanel.transform);
+            instance.transform.SetAsFirstSibling();
+            instance.GetComponent<SymptomObject>().SetUp(symptom);
+
+
+            Debug.Log("Added: " + symptom.symptom);
+
+            if (!startTimer)
+                startTimer = true;
+        }
     }
 
 
@@ -123,6 +136,8 @@ public class GameManager : MonoBehaviour
 
             ResetTimeOut();
             activeSymptoms.RemoveAt(0);
+            Destroy(symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount - 1).gameObject);
+
         }
     }
 

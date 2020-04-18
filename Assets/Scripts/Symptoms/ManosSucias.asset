@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9c7da3806f74b646be97fe6cf392f18, type: 3}
   m_Name: ManosSucias
   m_EditorClassIdentifier: 
-  symptom: Tienes las manos sucias
-  cure: 6
+  symptom: Manos sucias
+  cure: 1
   isDone: 0

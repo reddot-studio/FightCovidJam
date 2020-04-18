@@ -83,6 +83,8 @@ public class GameManager : MonoBehaviour
                 DecrementHealth(healthLossForTimeOut);
                 activeSymptoms.RemoveAt(0);
                 Destroy(symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount -1).gameObject);
+                GameObject lastSymptom = symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount - 2).gameObject;
+                lastSymptom.GetComponent<SymptomObject>().ChangeColor();
                 ResetTimeOut();
             }
             else
@@ -95,6 +97,8 @@ public class GameManager : MonoBehaviour
         {
             DoCure(Cure.LlamarCentroSanitario);
         }
+
+        
     }
 
     void AddActiveSymptom()
@@ -109,7 +113,12 @@ public class GameManager : MonoBehaviour
             GameObject instance = Instantiate(symptomPrefab, symptomsPanel.transform.position, Quaternion.identity);
             instance.transform.SetParent(symptomsPanel.transform);
             instance.transform.SetAsFirstSibling();
-            instance.GetComponent<SymptomObject>().SetUp(symptom);
+
+            SymptomObject symptomObject = instance.GetComponent<SymptomObject>();
+            symptomObject.SetUp(symptom);
+            
+            GameObject lastSymptom =  symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount - 1).gameObject;
+            lastSymptom.GetComponent<SymptomObject>().ChangeColor();
 
 
             Debug.Log("Added: " + symptom.symptom);

@@ -51,6 +51,13 @@ public class GameManager : MonoBehaviour
     public Slider infectionSlider;
     public TextMeshProUGUI scoreText;
 
+    [Header("Difficulty settings")]
+    public int difficultyLevel = 0;
+    public int maxDifficultyLevel = 5;
+    int currentSpawns = 0;
+    //Synt added until we level up
+    public int difficultyIncrement = 10;
+
     private void Awake()
     {
         instance = this;
@@ -61,6 +68,8 @@ public class GameManager : MonoBehaviour
         currentTime = symptomRate;
         infectionSlider.maxValue = health;
         infectionSlider.value = infectionSlider.maxValue;
+
+        currentSpawns = 0;
 
         scoreText.text = "Score: 0";
 
@@ -118,6 +127,15 @@ public class GameManager : MonoBehaviour
             
             GameObject lastSymptom =  symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount - 1).gameObject;
             lastSymptom.GetComponent<SymptomObject>().ChangeColor();
+
+            //Difficulty mec
+            currentSpawns++;
+            if(currentSpawns >= difficultyIncrement && difficultyLevel < maxDifficultyLevel)
+            {
+                difficultyLevel++;
+
+                currentSpawns = 0;
+            }
 
 
             Debug.Log("Added: " + symptom.symptom);

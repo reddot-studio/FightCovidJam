@@ -20,7 +20,7 @@ public class CameraAngleChange : MonoBehaviour
     {
 
         deltaTime += (Time.unscaledDeltaTime - deltaTime) * 0.1f;
-      //  fpsText.text = (1.0f / deltaTime).ToString("F0");
+        fpsText.text = (1.0f / deltaTime).ToString("F0");
 
         if (Input.GetMouseButtonDown(0) && !rotate)
         {

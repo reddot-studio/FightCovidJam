@@ -104,16 +104,10 @@ public class GameManager : MonoBehaviour
                 timeToFail -= Time.deltaTime;
                 GameObject lastSymptom = symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount - 1).gameObject;
                 lastSymptom.GetComponent<SymptomObject>().symptomTime = timeToFail / maxTimeToAnswer;
-                //Debug.Log(timeToFail / maxTimeToAnswer);
+                Debug.Log(timeToFail / maxTimeToAnswer);
             }
         }
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            DoCure(Cure.LlamarCentroSanitario);
-        }
-
-        
+      
     }
 
     void AddActiveSymptom()
@@ -125,6 +119,10 @@ public class GameManager : MonoBehaviour
         {
 
             activeSymptoms.Add(symptom);
+            if(symptomsPanel.transform.childCount == 0)
+            {
+                ResetTimeOut();
+            }
             GameObject instance = Instantiate(symptomPrefab,symptomsPanel.transform);       
             instance.transform.SetAsFirstSibling();
 

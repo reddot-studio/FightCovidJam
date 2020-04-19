@@ -102,9 +102,11 @@ public class GameManager : MonoBehaviour
             else
             {
                 timeToFail -= Time.deltaTime;
-                GameObject lastSymptom = symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount - 1).gameObject;
-                lastSymptom.GetComponent<SymptomObject>().symptomTime = timeToFail / maxTimeToAnswer;
-                Debug.Log(timeToFail / maxTimeToAnswer);
+                if (symptomsPanel.transform.childCount > 0)
+                {
+                    GameObject lastSymptom = symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount - 1).gameObject;
+                    lastSymptom.GetComponent<SymptomObject>().symptomTime = timeToFail / maxTimeToAnswer;
+                }
             }
         }
       
@@ -128,9 +130,12 @@ public class GameManager : MonoBehaviour
 
             SymptomObject symptomObject = instance.GetComponent<SymptomObject>();
             symptomObject.SetUp(symptom);
-            
-            GameObject lastSymptom =  symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount - 1).gameObject;
-            lastSymptom.GetComponent<SymptomObject>().ChangeColor();
+
+            if (symptomsPanel.transform.childCount > 0)
+            {
+                GameObject lastSymptom = symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount - 1).gameObject;
+                lastSymptom.GetComponent<SymptomObject>().ChangeColor();
+            }
 
             //Difficulty mec
             currentSpawns++;
@@ -142,7 +147,7 @@ public class GameManager : MonoBehaviour
             }
 
 
-            Debug.Log("Added: " + symptom.symptom);
+           // Debug.Log("Added: " + symptom.symptom);
 
             if (!startTimer)
                 startTimer = true;
@@ -166,7 +171,11 @@ public class GameManager : MonoBehaviour
 
             ResetTimeOut();
             activeSymptoms.RemoveAt(0);
-            Destroy(symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount - 1).gameObject);
+            if (symptomsPanel.transform.childCount > 0)
+            {
+                Destroy(symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount - 1).gameObject);
+            }
+
             if (symptomsPanel.transform.childCount > 1)
             {
                 GameObject lastSymptom = symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount - 2).gameObject;

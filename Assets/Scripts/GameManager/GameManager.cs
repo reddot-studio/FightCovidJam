@@ -91,14 +91,20 @@ public class GameManager : MonoBehaviour
             {
                 DecrementHealth(healthLossForTimeOut);
                 activeSymptoms.RemoveAt(0);
-                Destroy(symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount -1).gameObject);
-                GameObject lastSymptom = symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount - 2).gameObject;
-                lastSymptom.GetComponent<SymptomObject>().ChangeColor();
+                Destroy(symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount - 1).gameObject);
+                if (symptomsPanel.transform.childCount > 1)
+                {
+                    GameObject lastSymptom = symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount - 2).gameObject;
+                    lastSymptom.GetComponent<SymptomObject>().ChangeColor();
+                }
                 ResetTimeOut();
             }
             else
             {
                 timeToFail -= Time.deltaTime;
+                GameObject lastSymptom = symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount - 1).gameObject;
+                lastSymptom.GetComponent<SymptomObject>().symptomTime = timeToFail / maxTimeToAnswer;
+                //Debug.Log(timeToFail / maxTimeToAnswer);
             }
         }
 
@@ -163,8 +169,11 @@ public class GameManager : MonoBehaviour
             ResetTimeOut();
             activeSymptoms.RemoveAt(0);
             Destroy(symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount - 1).gameObject);
-            GameObject lastSymptom = symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount - 2).gameObject;
-            lastSymptom.GetComponent<SymptomObject>().ChangeColor();
+            if (symptomsPanel.transform.childCount > 1)
+            {
+                GameObject lastSymptom = symptomsPanel.transform.GetChild(symptomsPanel.transform.childCount - 2).gameObject;
+                lastSymptom.GetComponent<SymptomObject>().ChangeColor();
+            }
 
         }
     }

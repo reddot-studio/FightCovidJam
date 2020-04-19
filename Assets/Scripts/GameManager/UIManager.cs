@@ -9,14 +9,23 @@ public class UIManager : MonoBehaviour
 {
 
     public GameObject endCanvas;
-    TextMeshProUGUI scoreText;
+    public TextMeshProUGUI finalScore;
+    public TextMeshProUGUI bestScore;
 
-
+    int maxScore;
 
 
     public void LoadEndScene()
     {
         endCanvas.SetActive(true);
+        finalScore.text = "Has conseguido " + GameManager.instance.score + " puntos.";
+        maxScore = PlayerPrefs.GetInt("maxScore", 0);
+        if(maxScore < GameManager.instance.score)
+        {
+            maxScore = GameManager.instance.score;
+            PlayerPrefs.SetInt("maxScore", maxScore);
+        }
+        bestScore.text = "Mejor puntuación: " + maxScore;
         GameManager.instance.gameObject.SetActive(false);
     }
 

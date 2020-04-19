@@ -9,13 +9,22 @@ public class SymptomObject : MonoBehaviour
     public float symptomTime;
 
     public Image spriteRenderer;
+    public Image timerFill;
     public Symptom symptom;
+
+    private void Update()
+    {
+        timerFill.fillAmount = symptomTime;
+    }
 
     public void SetUp(Symptom symp)
     {
+        symptomTime = 1;
         symptom = symp;
         symptomText.text = symptom.symptom;
+        
     }
+
 
     public void ChangeColor()
     {

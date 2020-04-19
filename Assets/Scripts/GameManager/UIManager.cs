@@ -17,7 +17,9 @@ public class UIManager : MonoBehaviour
 
     public void LoadEndScene()
     {
-        endCanvas.SetActive(true);
+        if(endCanvas)
+            endCanvas.SetActive(true);
+
         finalScore.text = "Has conseguido " + GameManager.instance.score + " puntos.";
         maxScore = PlayerPrefs.GetInt("maxScore", 0);
         if(maxScore < GameManager.instance.score)
@@ -34,7 +36,7 @@ public class UIManager : MonoBehaviour
         Application.Quit();
     }
 
-    public void RestartGame(int i)
+    public static void RestartGame(int i)
     {
         SceneManager.LoadScene(i);
         Debug.Log("Restaring game...");

@@ -498,6 +498,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7ebf733372160a4790711626df8e915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  symptomsPanel: {fileID: 0}
+  symptomPrefab: {fileID: 0}
   availableSymptoms:
   - {fileID: 11400000, guid: 444c1e80f52e35b42b6a0fbe9b509c5d, type: 2}
   - {fileID: 11400000, guid: 13c1441a85e803c46b6c8d94a47339b3, type: 2}
@@ -514,6 +516,11 @@ MonoBehaviour:
   healthLossForWrongAnswer: 1
   healthLossForTimeOut: 0.5
   maxTimeToAnswer: 5
+  infectionSlider: {fileID: 0}
+  scoreText: {fileID: 0}
+  difficultyLevel: 0
+  maxDifficultyLevel: 5
+  difficultyIncrement: 10
 --- !u!4 &477362242
 Transform:
   m_ObjectHideFlags: 0

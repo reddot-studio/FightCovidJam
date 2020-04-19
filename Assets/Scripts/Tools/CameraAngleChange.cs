@@ -96,7 +96,9 @@ public class CameraAngleChange : MonoBehaviour
             {
                 _hit.transform.gameObject.GetComponent<Animator>().SetBool("pushed", true);
 
-                GameManager.instance.DoCure(_hit.transform.gameObject.GetComponent<ButtonHolder>().buttonCure);
+                bool answer = GameManager.instance.DoCure(_hit.transform.gameObject.GetComponent<ButtonHolder>().buttonCure);
+
+                _hit.transform.gameObject.GetComponent<ButtonHolder>().ChangeState(answer);
 
             }
         }

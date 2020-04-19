@@ -182,19 +182,22 @@ public class GameManager : MonoBehaviour
 
 
 
-    public void DoCure(Cure cure)
+    public bool DoCure(Cure cure)
     {
-        if(activeSymptoms.Count > 0)
+        bool correct = false;
+        if (activeSymptoms.Count > 0)
         {
             if (cure == activeSymptoms[0].cure)
             {
                 IncrementScore(scoreForGoodAnswer);
                 SFX.instance.PlayAudioClip(SFX.instance.correct);
+                correct = true;
             }
             else
             {
                 DecrementHealth(healthLossForWrongAnswer);
                 SFX.instance.PlayAudioClip(SFX.instance.incorrect);
+                correct = false;
             }
 
             ResetTimeOut();
@@ -211,7 +214,10 @@ public class GameManager : MonoBehaviour
             }
 
         }
+        return correct;
     }
+
+
 
     public void RestartScore()
     {

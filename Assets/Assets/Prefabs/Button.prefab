@@ -376,6 +376,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonCure: 1
+  render: {fileID: 8563359881077158982}
+  blue: {fileID: 2100000, guid: a79faabe5ed11e34498477b585e4dfa6, type: 2}
+  red: {fileID: 2100000, guid: e4e0af1b97faf0c41bbee4b10894384c, type: 2}
+  green: {fileID: 2100000, guid: 1cb9346a01f0894498f0c8b00f7cbee1, type: 2}
 --- !u!95 &4210787461175297547
 Animator:
   serializedVersion: 3
@@ -484,7 +488,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e4e0af1b97faf0c41bbee4b10894384c, type: 2}
+      objectReference: {fileID: 2100000, guid: a79faabe5ed11e34498477b585e4dfa6, type: 2}
     - target: {fileID: 8833720299871980622, guid: e3e28a7c6c304d745aedda741a9a4670,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -500,6 +504,12 @@ PrefabInstance:
 --- !u!4 &4423647214205694802 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: e3e28a7c6c304d745aedda741a9a4670,
+    type: 3}
+  m_PrefabInstance: {fileID: 8654026751233087560}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &8563359881077158982 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1066910053003865102, guid: e3e28a7c6c304d745aedda741a9a4670,
     type: 3}
   m_PrefabInstance: {fileID: 8654026751233087560}
   m_PrefabAsset: {fileID: 0}

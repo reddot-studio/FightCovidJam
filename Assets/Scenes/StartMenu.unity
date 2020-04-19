@@ -721,7 +721,7 @@ MonoBehaviour:
   loadingImageBW: {fileID: 949928344}
   currentLoad: 0
   waitTime: 2
-  loadIndex: 2
+  loadIndex: 1
   startEffect: {fileID: 1965283619}
 --- !u!4 &1965283618
 Transform:

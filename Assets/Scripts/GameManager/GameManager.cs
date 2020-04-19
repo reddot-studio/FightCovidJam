@@ -67,7 +67,7 @@ public class GameManager : MonoBehaviour
     { 
         currentTime = symptomRate;
         infectionSlider.maxValue = health;
-        infectionSlider.value = infectionSlider.maxValue;
+        infectionSlider.value = 0;
 
         currentSpawns = 0;
 
@@ -207,12 +207,17 @@ public class GameManager : MonoBehaviour
     public void DecrementHealth(float value)
     {
         health -= value;
-        infectionSlider.value = health;
+        infectionSlider.value++;
 
         if(health <= 0)
         {
             onLose?.Invoke();
         }
 
+    }
+
+    public void ClearHS()
+    {
+        PlayerPrefs.DeleteAll();
     }
 }

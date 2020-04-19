@@ -87,19 +87,22 @@ public class CameraAngleChange : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButtonUp(0))
+        if (GameManager.instance.canPlay)
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit _hit;
-
-            if (Physics.Raycast(ray, out _hit, Mathf.Infinity, raycastMask))
+            if (Input.GetMouseButtonUp(0))
             {
-                _hit.transform.gameObject.GetComponent<Animator>().SetBool("pushed", true);
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                RaycastHit _hit;
 
-                bool answer = GameManager.instance.DoCure(_hit.transform.gameObject.GetComponent<ButtonHolder>().buttonCure);
+                if (Physics.Raycast(ray, out _hit, Mathf.Infinity, raycastMask))
+                {
+                    _hit.transform.gameObject.GetComponent<Animator>().SetBool("pushed", true);
 
-                _hit.transform.gameObject.GetComponent<ButtonHolder>().ChangeState(answer);
+                    bool answer = GameManager.instance.DoCure(_hit.transform.gameObject.GetComponent<ButtonHolder>().buttonCure);
 
+                    _hit.transform.gameObject.GetComponent<ButtonHolder>().ChangeState(answer);
+
+                }
             }
         }
 

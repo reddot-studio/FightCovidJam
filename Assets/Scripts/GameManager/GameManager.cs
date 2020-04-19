@@ -59,6 +59,10 @@ public class GameManager : MonoBehaviour
     //Synt added until we level up
     public int difficultyIncrement = 10;
 
+    float currentTimeToStart = 0f;
+    public float timeToStart = 10f;
+    public bool canPlay;
+
     private void Awake()
     {
         instance = this;
@@ -66,6 +70,8 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        canPlay = false;
+        currentTimeToStart = timeToStart;
         if(IntroManager.state == 1)
         {
             gameOver = true;
@@ -90,7 +96,13 @@ public class GameManager : MonoBehaviour
         //If gameOver disable update
         if (gameOver)
             return;
-
+        if (currentTimeToStart > 0)
+        {
+            currentTimeToStart -= Time.deltaTime;
+            if (currentTimeToStart <= 0)
+                canPlay = true;
+            return;
+        }
         //-------------------------///
 
 

@@ -38,6 +38,7 @@ public class IntroManager : MonoBehaviour
                 break;
 
             case 2:
+
                 intro.SetActive(false);
                 world.SetActive(true);
                 foreach (GameObject item in deactive)
@@ -50,7 +51,7 @@ public class IntroManager : MonoBehaviour
                     item.SetActive(true);
                 }
                 des.enabled = false;
-
+                SkipManager.isEnabled = false;
                 break;
         }
 

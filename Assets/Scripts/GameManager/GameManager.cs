@@ -66,7 +66,15 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        gameOver = false;
+        if(IntroManager.state == 1)
+        {
+            gameOver = true;
+        }
+        else if(IntroManager.state == 2)
+        {
+            gameOver = false;
+        }
+
         currentTime = symptomRate;
         infectionSlider.maxValue = health;
         infectionSlider.value = 0;

@@ -10,6 +10,7 @@ public class SFX : MonoBehaviour
     public AudioSource incorrect;
     public AudioSource new_task;
     public AudioSource swipe;
+    public AudioSource background;
 
     private void Awake()
     {

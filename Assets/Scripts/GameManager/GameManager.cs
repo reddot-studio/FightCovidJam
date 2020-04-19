@@ -83,6 +83,7 @@ public class GameManager : MonoBehaviour
         else if(IntroManager.state == 2)
         {
             gameOver = false;
+
         }
 
         currentTime = symptomRate;
@@ -113,7 +114,10 @@ public class GameManager : MonoBehaviour
         {
             currentTimeToStart -= Time.deltaTime;
             if (currentTimeToStart <= 0)
+            {
                 canPlay = true;
+                SFX.instance.PlayAudioClip(SFX.instance.background);
+            }
             return;
         }
         //-------------------------///

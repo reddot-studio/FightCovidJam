@@ -577,8 +577,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 98, y: 81}
-  m_SizeDelta: {x: 97.099976, y: 97.100006}
+  m_AnchoredPosition: {x: 209.5, y: 96}
+  m_SizeDelta: {x: 76.9, y: 76.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &207448873
 MonoBehaviour:
@@ -652,7 +652,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: acf6c4f03c2fc18448353d6f5feee89c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -963,7 +963,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -412, y: -135}
+  m_AnchoredPosition: {x: -412, y: -146}
   m_SizeDelta: {x: 753.9, y: 368.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &499791336
@@ -984,7 +984,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 36594415606daf7439809c556638c4fc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1308,7 +1308,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 412, y: -135}
+  m_AnchoredPosition: {x: 412, y: -146}
   m_SizeDelta: {x: 753.9, y: 368.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &822488154
@@ -1329,7 +1329,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4a7a554291dec8f49b1cddf0a7cc0aaf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1931,7 +1931,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1423026855
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2323,8 +2323,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000015259, y: 151}
-  m_SizeDelta: {x: 1696.7, y: 203.2}
+  m_AnchoredPosition: {x: -0.000072479, y: 151}
+  m_SizeDelta: {x: 1577.9, y: 203.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2009727208
 MonoBehaviour:
@@ -2344,8 +2344,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Veras que aparecen sintomas en la parte superior izquierda, tu deber como
-    celebro es evitar que el sistema nervioso cometa errores. Para eso deber\xE1s
+  m_text: "Ver\xE1s que aparecen peligros en la parte superior izquierda, tu deber
+    como cerebro es evitar que el sistema nervioso cometa errores. Para eso deber\xE1s
     deslizar el dedo para moverte entre los tres paneles y pulsar el bot\xF3n con
     la acci\xF3n adecuada."
   m_isRightToLeft: 0
@@ -2421,7 +2421,7 @@ MonoBehaviour:
     spaceCount: 40
     wordCount: 41
     linkCount: 0
-    lineCount: 2
+    lineCount: 3
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0

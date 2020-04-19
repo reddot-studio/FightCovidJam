@@ -27,8 +27,6 @@ public class ButtonHolder : MonoBehaviour
         }
 
         StartCoroutine(changeToIdle());
-
-        Debug.Log(correct); 
     }
 
     IEnumerator changeToIdle()

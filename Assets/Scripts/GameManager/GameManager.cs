@@ -58,10 +58,13 @@ public class GameManager : MonoBehaviour
     int currentSpawns = 0;
     //Synt added until we level up
     public int difficultyIncrement = 10;
+    [HideInInspector]
+    public float currentTimeToStart = 0f;
 
-    float currentTimeToStart = 0f;
-    public float timeToStart = 10f;
+    public float timeToStart;
     public bool canPlay;
+
+    public static bool tutorial = false;
 
     private void Awake()
     {
@@ -71,6 +74,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         canPlay = false;
+
         currentTimeToStart = timeToStart;
         if(IntroManager.state == 1)
         {
@@ -93,6 +97,15 @@ public class GameManager : MonoBehaviour
     }
     public void Update()
     {
+
+        if(tutorial)
+        {
+            timeToStart = 0;
+            currentTimeToStart = 0;
+            canPlay = true;
+        }
+
+
         //If gameOver disable update
         if (gameOver)
             return;
@@ -228,7 +241,6 @@ public class GameManager : MonoBehaviour
         }
         return correct;
     }
-
 
 
     public void RestartScore()

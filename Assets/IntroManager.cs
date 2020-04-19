@@ -19,6 +19,11 @@ public class IntroManager : MonoBehaviour
 
     public Animator des;
 
+    public AudioSource tutorial;
+    public GameObject[] bars;
+
+    public static bool tutorialPlayed = false;
+
     private void Awake()
     {
         introManager = this;
@@ -52,6 +57,30 @@ public class IntroManager : MonoBehaviour
                 }
                 des.enabled = false;
                 SkipManager.isEnabled = false;
+
+
+                if (tutorialPlayed)
+                {
+                    Debug.Log("3 time");
+
+                    tutorial.playOnAwake = false;
+                    tutorial.Stop();
+                    tutorial.enabled = false;
+
+                    GameManager.tutorial = true;
+
+                    foreach (GameObject item in bars)
+                    {
+                        item.SetActive(false);
+                    }
+                }
+
+                //Play audio
+                tutorialPlayed = true;
+                //block audio or timer to be played again?
+
+
+
                 break;
         }
 

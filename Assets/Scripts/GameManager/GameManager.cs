@@ -143,6 +143,9 @@ public class GameManager : MonoBehaviour
             {
                 difficultyLevel++;
 
+                maxTimeToAnswer -= 0.5f;
+                symptomRate -= 0.2f;
+
                 currentSpawns = 0;
             }
 

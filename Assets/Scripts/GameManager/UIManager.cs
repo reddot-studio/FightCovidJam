@@ -49,6 +49,13 @@ public class UIManager : MonoBehaviour
         GameManager.onLose += LoadEndScene;
     }
 
+    public void RestartWithButton(int index)
+    {
+        RestartGame(index);
+        if (endCanvas)
+            endCanvas.SetActive(false);
+    }
+
     // Update is called once per frame
     void Update()
     {

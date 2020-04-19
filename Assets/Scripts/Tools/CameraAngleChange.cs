@@ -23,6 +23,11 @@ public class CameraAngleChange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //If gameOver disable update
+        if (GameManager.instance.gameOver)
+            return;
+
+        //---------------------//
 
         deltaTime += (Time.unscaledDeltaTime - deltaTime) * 0.1f;
         fpsText.text = (1.0f / deltaTime).ToString("F0");
@@ -75,6 +80,8 @@ public class CameraAngleChange : MonoBehaviour
                             break;
                     }
                 }
+                //AUDIO
+                SFX.instance.PlayAudioClip(SFX.instance.swipe);
 
                 rotate = false;
             }
@@ -90,6 +97,7 @@ public class CameraAngleChange : MonoBehaviour
                 _hit.transform.gameObject.GetComponent<Animator>().SetBool("pushed", true);
 
                 GameManager.instance.DoCure(_hit.transform.gameObject.GetComponent<ButtonHolder>().buttonCure);
+
             }
         }
 

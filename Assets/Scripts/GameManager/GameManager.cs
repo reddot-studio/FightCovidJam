@@ -17,6 +17,7 @@ public enum Cure
 
 public class GameManager : MonoBehaviour
 {
+    public bool gameOver;
     public GameObject symptomsPanel;
     public GameObject symptomPrefab;
 
@@ -64,7 +65,8 @@ public class GameManager : MonoBehaviour
     }
 
     private void Start()
-    { 
+    {
+        gameOver = false;
         currentTime = symptomRate;
         infectionSlider.maxValue = health;
         infectionSlider.value = 0;
@@ -77,6 +79,13 @@ public class GameManager : MonoBehaviour
     }
     public void Update()
     {
+        //If gameOver disable update
+        if (gameOver)
+            return;
+
+        //-------------------------///
+
+
         //Create symptom X time
         currentTime -= Time.deltaTime;
         if(currentTime < 0.0f)
@@ -98,6 +107,7 @@ public class GameManager : MonoBehaviour
                     lastSymptom.GetComponent<SymptomObject>().ChangeColor();
                 }
                 ResetTimeOut();
+                SFX.instance.PlayAudioClip(SFX.instance.incorrect);
             }
             else
             {
@@ -154,6 +164,11 @@ public class GameManager : MonoBehaviour
 
             if (!startTimer)
                 startTimer = true;
+
+
+            //Sound
+            SFX.instance.PlayAudioClip(SFX.instance.new_task);
+
         }
     }
 
@@ -166,10 +181,12 @@ public class GameManager : MonoBehaviour
             if (cure == activeSymptoms[0].cure)
             {
                 IncrementScore(scoreForGoodAnswer);
+                SFX.instance.PlayAudioClip(SFX.instance.correct);
             }
             else
             {
                 DecrementHealth(healthLossForWrongAnswer);
+                SFX.instance.PlayAudioClip(SFX.instance.incorrect);
             }
 
             ResetTimeOut();
@@ -207,11 +224,12 @@ public class GameManager : MonoBehaviour
     public void DecrementHealth(float value)
     {
         health -= value;
-        infectionSlider.value++;
+        infectionSlider.value += value;
 
         if(health <= 0)
         {
             onLose?.Invoke();
+            gameOver = true;
         }
 
     }

@@ -28,7 +28,7 @@ public class UIManager : MonoBehaviour
             PlayerPrefs.SetInt("maxScore", maxScore);
         }
         bestScore.text = "Mejor puntuación: " + maxScore;
-        GameManager.instance.gameObject.SetActive(false);
+        //GameManager.instance.gameObject.SetActive(false);
     }
 
     public void CloseGame()
@@ -43,7 +43,7 @@ public class UIManager : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         endCanvas.SetActive(false);
         GameManager.onLose += LoadEndScene;
